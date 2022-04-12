@@ -1,8 +1,9 @@
 .main-container {
-    font-family: "Roboto Mono", monospace;
-    background-image: url("https://scitechdaily.com/images/Astronauts-In-Outer-Space-Need-Radiation-Shielding.jpg");
+    font-family: "Space Grotesk", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/5b/ec/37/5bec373bb49e0f41bcd12864c4fe3dca.jpg");
     background-size: cover;
     background-position: center;
     background-color: #000000;
     background-repeat: no-repeat;
+    color: #131331;
 }
