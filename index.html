@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/components/main-container.css">
-    <link rel="stylesheet" href="CSS/components/sub.container.css">
+    <link rel="stylesheet" href="CSS/components/sub-container.css">
     <link rel="stylesheet" href="CSS/components/page-title.css">
     <link rel="stylesheet" href="CSS/components/page-subtitle.css">
     <link rel="stylesheet" href="CSS/components/page-logo.css">
@@ -21,14 +22,13 @@
         <p class="page-subtitle">
           Descubra a distância em anos-luz dos astros da Galáxia para a Terra
         </p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
       
-        <h2 class="page-subtitle" >Insira o nome do Astro</h2><br>
-        <input type="string" class="input" id="nomeDoAstro" size="10" />
+        <h2 class="page-subtitle" >Insira o nome do Astro</h2>
+        <input type="string" class="input" id="nomeDoAstro" size="10" /><br>
         <button type="submit" class="button" onclick=" ">Ok</button>
-        <br><br>
       
-        <h2 class="sub-title">Insira a distância em km do Astro para a Terra</h2><br>
+        <h2 class="sub-title">Insira a distância em km do Astro para a Terra</h2>
         <input type="number" class="input" id="distanciaKm" size="20" /><br>
         <button type="submit" onclick="Converter()">Converter para ly</button>
         <h2 class="page-subtitle" id="distanciaConvertida"></h2>
