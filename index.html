@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/components/main-container.css">
+    <link rel="stylesheet" href="CSS/components/sub.container.css">
+    <link rel="stylesheet" href="CSS/components/page-title.css">
+    <link rel="stylesheet" href="CSS/components/page-subtitle.css">
+    <link rel="stylesheet" href="CSS/components/page-logo.css">
+    <link rel="stylesheet" href="CSS/components/alura-logo.css">
 </head>
-<body>
-    <div class="container">
+<body class="main-container">
+    <div class="sub-container">
         <h1 class="page-title">
           Conversor de km para anos-luz
         </h1>
@@ -16,18 +23,19 @@
         </p>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
       
-        <label for="nome">Insira o nome do Astro</label><br>
-        <input type="string" id="nomeDoAstro" size="10" />
-        <button type="submit" onclick=" ">Ok</button>
+        <h2 class="page-subtitle" >Insira o nome do Astro</h2><br>
+        <input type="string" class="input" id="nomeDoAstro" size="10" />
+        <button type="submit" class="button" onclick=" ">Ok</button>
         <br><br>
       
-        <label for="distancia">Insira a distância em km do Astro para a Terra</label><br>
-        <input type="number" id="distanciaKm" size="20" /><br>
+        <h2 class="sub-title">Insira a distância em km do Astro para a Terra</h2><br>
+        <input type="number" class="input" id="distanciaKm" size="20" /><br>
         <button type="submit" onclick="Converter()">Converter para ly</button>
-        <h3 id="distanciaConvertida"></h3>
+        <h2 class="page-subtitle" id="distanciaConvertida"></h2>
       
       </div>
       <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
 </body>
+<script type="text/javascript" src="JS/index.js"></script>
 </html>
