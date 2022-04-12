@@ -13,7 +13,7 @@ function Converter() {
       "A distãncia entre " +
       nomeAstro +
       " e a Terra é de " +
-      distanciaEmAnosLuz.toFixed() +
+      distanciaEmAnosLuz.toFixed(2) +
       " anos-luz";
     elementoConvertido.innerHTML = AnosLuz;
   }

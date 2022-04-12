@@ -8,7 +8,7 @@
     color: #000;
 }
 
-.page-subtitle #distanciaConvertida {
+.page-subtitle._answer {
     margin-top: 20px;
-    color: #fada06;
+    color: darkblue;
 }

@@ -7,11 +7,14 @@
 .sub-container .input {
     margin: 12px;
     padding: 6px;
+    border: 3px solid #000;
     border-radius: 5px;
+    text-align: center;
 }
 
 .sub-container .button {
     padding: 4px 8px;
+    border: 3px solid #000;
     border-radius: 10px;
     background: #ffffff;
 }
